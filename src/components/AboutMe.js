@@ -12,7 +12,7 @@ const AboutMe = () => {
             <Container
               fluid
               className="rounded pb-3 pt-2"
-              style={{ background: "white", opacity: ".9" }}
+              style={{ background: "rgba(255, 255, 255, 0.8)" }}
             >
               <p>
                 As a kid, I loved building and disassembling things. From building lego castles to
@@ -27,7 +27,7 @@ const AboutMe = () => {
                 <Row className="justify-content-center">
                   <Col md={10}>
                     {hobbies.map((h, index) => (
-                      <Card>
+                      <Card style={{ background: "rgba(255, 255, 255, 0.9)" }}>
                         <Card.Header>
                           <Accordion.Toggle as={Button} variant="link" eventKey={index}>
                             <h6 className="text-primary">{h.title}</h6>
