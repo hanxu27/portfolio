@@ -3,7 +3,7 @@ import { Card, Button, Image } from "react-bootstrap";
 
 const ProjectCard = props => {
   return (
-    <Card className="m-2">
+    <Card bg="secondary" text="light" className="m-2 shadow">
       <Image src={`./projects/${props.project.image}`} alt={props.project.name} fluid />
       <Card.Body>
         <Card.Title>{props.project.name}</Card.Title>

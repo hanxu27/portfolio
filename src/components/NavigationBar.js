@@ -12,7 +12,7 @@ const Styles = styled.div`
 const NavigationBar = () => {
   return (
     <Styles>
-      <Navbar variant="dark" bg="secondary" expand="sm">
+      <Navbar variant="dark" expand="sm" style={{ "background-color": "#17aaff" }}>
         <Navbar.Brand href="/">Home</Navbar.Brand>
         <Navbar.Brand href="/about">About Me</Navbar.Brand>
         <Nav className="ml-auto">
