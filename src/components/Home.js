@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Tab, Jumbotron, Row, CardColumns, Tabs } from "react-bootstrap";
+import { Container, Tab, Jumbotron, Row, CardColumns, Tabs, Image } from "react-bootstrap";
 import { FaGithub, FaLinkedin, FaMediumM } from "react-icons/fa";
 import ProjectCard from "./projects/ProjectCard";
 import projects from "./projects/ProjectList";
@@ -32,6 +32,15 @@ class Home extends Component {
         )}
         <Jumbotron>
           <Container>
+            <Row className="justify-content-center mb-2">
+              <Image
+                src={`./profile.jpg`}
+                alt="profile picture"
+                roundedCircle
+                fluid
+                style={{ width: "10%" }}
+              />
+            </Row>
             Full stack web developer with a passion for building user and developer friendly
             projects. Experience in Ruby and JavaScript frameworks, background in application
             engineering with sharpened analytical skills and understanding of customer needs.
@@ -39,7 +48,7 @@ class Home extends Component {
             have created a learner’s attitude and value the thoughts and perspective of team
             members.
           </Container>
-          <Row className="justify-content-center mt-3">
+          <Row className="justify-content-center mt-1">
             <a
               href="https://github.com/hanxu27?tab=stars"
               target="_blank"
