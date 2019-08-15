@@ -14,7 +14,7 @@ const NavigationBar = () => {
     <Styles>
       <Navbar variant="dark" expand="sm" style={{ "background-color": "#17aaff" }}>
         <Navbar.Brand href="/">Professional</Navbar.Brand>
-        <Navbar.Brand href="/about">Interests</Navbar.Brand>
+        <Navbar.Brand href="/interests">Interests</Navbar.Brand>
         <Nav className="ml-auto">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
