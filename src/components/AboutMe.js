@@ -29,7 +29,7 @@ const AboutMe = () => {
                     {hobbies.map((h, index) => (
                       <Card>
                         <Card.Header>
-                          <Accordion.Toggle as={Card.Header} eventKey={index}>
+                          <Accordion.Toggle as={Button} variant="link" eventKey={index}>
                             <h6 className="text-primary">{h.title}</h6>
                           </Accordion.Toggle>
                         </Card.Header>
