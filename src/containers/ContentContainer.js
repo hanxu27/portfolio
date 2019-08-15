@@ -8,7 +8,7 @@ const ContentContainer = () => {
   return (
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/about" component={AboutMe} />
+      <Route path="/interests" component={AboutMe} />
       <Route component={NoMatch} />
     </Switch>
   );

@@ -13,8 +13,8 @@ const NavigationBar = () => {
   return (
     <Styles>
       <Navbar variant="dark" expand="sm" style={{ "background-color": "#17aaff" }}>
-        <Navbar.Brand href="/">Home</Navbar.Brand>
-        <Navbar.Brand href="/about">About</Navbar.Brand>
+        <Navbar.Brand href="/">Professional</Navbar.Brand>
+        <Navbar.Brand href="/about">Interests</Navbar.Brand>
         <Nav className="ml-auto">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
