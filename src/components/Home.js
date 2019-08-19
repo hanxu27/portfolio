@@ -54,9 +54,7 @@ class Home extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <iconStyle>
-                <FaGithub size={34} className="m-1" style={{ color: this.iconColor }} />
-              </iconStyle>
+              <FaGithub size={34} className="m-1" style={{ color: this.iconColor }} />
             </a>
 
             <a
