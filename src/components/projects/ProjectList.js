@@ -14,7 +14,8 @@ const projects = [
     site: "https://park-browser-29cd5.firebaseapp.com/",
     demo: "https://youtu.be/h-28VkOhv-o",
     embed: "https://www.youtube.com/embed/h-28VkOhv-o",
-    image: "ParkBrowser.png"
+    image: "ParkBrowser.png",
+    gif: "ParkBrowser.gif"
   },
   {
     name: "Volleyball Stats",
@@ -29,7 +30,8 @@ const projects = [
     site: "https://volleyball-stats-c7bd7.firebaseapp.com/",
     demo: "https://youtu.be/lQH4BPPdSug",
     embed: "https://www.youtube.com/embed/lQH4BPPdSug",
-    image: "VolleyballStats.png"
+    image: "VolleyballStats.png",
+    gif: "VolleyballStats.gif"
   },
   {
     name: "VB Tryouts",
@@ -44,7 +46,8 @@ const projects = [
     site: "https://immense-brook-23817.herokuapp.com/",
     demo: "https://youtu.be/Ar87X5ucE6c",
     embed: "https://www.youtube.com/embed/Ar87X5ucE6c",
-    image: "VBTryouts.png"
+    image: "VBTryouts.png",
+    gif: "VBTryouts.gif"
   }
 ];
 

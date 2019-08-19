@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Modal, Container } from "react-bootstrap";
+import { Button, Modal, Image } from "react-bootstrap";
 import { FaGithub, FaYoutube, FaExternalLinkSquareAlt, FaGithubSquare } from "react-icons/fa";
 
 const ProjectModal = props => {
@@ -13,15 +13,11 @@ const ProjectModal = props => {
           </h6>
         </Modal.Title>
       </Modal.Header>
-      <Container className="embed-responsive embed-responsive-16by9">
-        <iframe
-          title={props.selectedProject.name}
-          class="embed-responsive-item"
-          src={props.selectedProject.embed}
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        />
-      </Container>
+      <Image
+        src={`./projects/${props.selectedProject.gif}`}
+        alt={props.selectedProject.name}
+        fluid
+      />
       <Modal.Body>
         {props.selectedProject.info.map(info => (
           <li>{info}</li>
