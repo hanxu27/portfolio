@@ -13,11 +13,13 @@ const ProjectModal = props => {
           </h6>
         </Modal.Title>
       </Modal.Header>
-      <Image
-        src={`./projects/${props.selectedProject.gif}`}
-        alt={props.selectedProject.name}
-        fluid
-      />
+      <a href={props.selectedProject.demo} target="_blank" rel="noopener noreferrer">
+        <Image
+          src={`./projects/${props.selectedProject.gif}`}
+          alt={props.selectedProject.name}
+          fluid
+        />
+      </a>
       <Modal.Body>
         {props.selectedProject.info.map(info => (
           <li>{info}</li>
