@@ -69,9 +69,9 @@ class Home extends Component {
             </a>
           </Row>
         </Jumbotron>
-        <Tabs className="m-3" defaultActiveKey="projects">
+        <Tabs className="m-1" defaultActiveKey="projects">
           <Tab eventKey="projects" title="Technical Projects">
-            <CardColumns>
+            <CardColumns className="m-3">
               {projects.map((project, idx) => (
                 <ProjectCard key={idx} project={project} handleShow={this.handleShow} />
               ))}
