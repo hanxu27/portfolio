@@ -27,7 +27,7 @@ const AboutMe = () => {
                 <Row className="justify-content-center">
                   <Col md={10}>
                     {hobbies.map((h, index) => (
-                      <Card style={{ background: "rgba(255, 255, 255, 0.9)" }}>
+                      <Card key={index} style={{ background: "rgba(255, 255, 255, 0.9)" }}>
                         <Card.Header>
                           <Accordion.Toggle as={Button} variant="link" eventKey={index}>
                             <h6 className="text-primary">{h.title}</h6>
