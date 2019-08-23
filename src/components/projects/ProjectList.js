@@ -19,7 +19,7 @@ const projects = [
   },
   {
     name: "Volleyball Stats",
-    intro: "Stats tracker for developing strategies and making in game adjustments",
+    intro: "Graphical stats tracker for coaches to make in game adjustments and develope strategies",
     info: [
       "Used KonvaJS and JavaScript to allow users to record directional and positional data",
       "Automated player action types and outcomes through positional and directional information",
