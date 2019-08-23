@@ -5,7 +5,6 @@ import ProjectCard from "./projects/ProjectCard";
 import projects from "./projects/ProjectList";
 import Employment from "./tabs/Employment";
 import Education from "./tabs/Education";
-import Skills from "./tabs/Skills";
 import ProjectModal from "./ProjectModal";
 
 class Home extends Component {
@@ -79,11 +78,8 @@ class Home extends Component {
           <Tab eventKey="employment" title="Employment History" className="m-3">
             <Employment />
           </Tab>
-          <Tab eventKey="education" title="Education" className="m-3">
+          <Tab eventKey="education" title="Skill & Education" className="m-3">
             <Education />
-          </Tab>
-          <Tab eventKey="skills" title="Technical Skills" className="m-3">
-            <Skills />
           </Tab>
         </Tabs>
       </React.Fragment>
