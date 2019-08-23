@@ -13,11 +13,11 @@ const NavigationBar = () => {
   return (
     <Styles>
       <Navbar variant="dark" expand="sm" style={{ backgroundColor: "#17aaff" }}>
-        <Navbar.Brand href="/">Professional</Navbar.Brand>
-        <Navbar.Brand href="/interests">Interests</Navbar.Brand>
+        <Navbar.Brand href="/">Han Xu</Navbar.Brand>
         <Nav className="ml-auto">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar.Brand href="/interests">Interests</Navbar.Brand>
             <a
               href="https://github.com/hanxu27?tab=stars"
               target="_blank"

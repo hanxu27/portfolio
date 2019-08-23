@@ -1,5 +1,5 @@
 import React from "react";
-import { Accordion, Card, Container, Button, Col, Row, Image } from "react-bootstrap";
+import { Accordion, Card, Container, Button, Col, Row, Image, h2 } from "react-bootstrap";
 import hobbies from "./AboutMe/hobbies";
 import Background from "./AboutMe/splash";
 
@@ -13,7 +13,8 @@ const AboutMe = () => {
             className="rounded p-3 mt-3 mb-3"
             style={{ background: "rgba(255, 255, 255, 0.8)" }}
           >
-            <p>
+            <h2 className="text-info text-center"  >About Me</h2>
+            <p className="text-info ml-2">
               As a kid, I loved building and disassembling things. From building lego castles to
               opening up broken television, as I got older, the toys got more complex. I was first
               introduced to coding in college, at first the concepts seems abstract and difficult to
@@ -34,7 +35,7 @@ const AboutMe = () => {
                       </Card.Header>
                       <Accordion.Collapse eventKey={index}>
                         <Card.Body>
-                          {h.description}
+                          <p className="text-secondary">{h.description}</p>
                           {h.image && (
                             <Image
                               className="mt-2 mr-2 rounded shadow"
