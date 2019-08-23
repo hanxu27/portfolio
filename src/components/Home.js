@@ -78,7 +78,7 @@ class Home extends Component {
           <Tab eventKey="employment" title="Employment History" className="m-3">
             <Employment />
           </Tab>
-          <Tab eventKey="education" title="Skill & Education" className="m-3">
+          <Tab eventKey="education" title="Skills & Education" className="m-3">
             <Education />
           </Tab>
         </Tabs>
