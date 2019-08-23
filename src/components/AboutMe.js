@@ -6,9 +6,9 @@ import Background from "./AboutMe/splash";
 const AboutMe = () => {
   return (
     <Background>
-      <Container className="m-4" fluid>
+      <Container className="mr-2 m-4" fluid>
         <Row className="justify-content-center">
-          <Col md={5}>
+          <Col lg={6} md={8} sm={10} xs={10}>
             <Container
               fluid
               className="rounded pb-3 pt-2"
@@ -38,7 +38,7 @@ const AboutMe = () => {
                             {h.description}
                             {h.image && (
                               <Image
-                                className="m-2 rounded shadow"
+                                className="mt-2 mr-2 rounded shadow"
                                 src={`./hobbies/${h.image}`}
                                 alt={h.title}
                                 fluid

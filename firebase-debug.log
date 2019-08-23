@@ -1,0 +1,228 @@
+[debug] [2019-08-19T19:59:32.902Z] ----------------------------------------------------------------------
+[debug] [2019-08-19T19:59:32.904Z] Command:       /Users/hanxu/.nvm/versions/node/v11.14.0/bin/node /Users/hanxu/.nvm/versions/node/v11.14.0/bin/firebase deploy
+[debug] [2019-08-19T19:59:32.904Z] CLI Version:   7.2.2
+[debug] [2019-08-19T19:59:32.904Z] Platform:      darwin
+[debug] [2019-08-19T19:59:32.904Z] Node Version:  v11.14.0
+[debug] [2019-08-19T19:59:32.905Z] Time:          Mon Aug 19 2019 15:59:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-08-19T19:59:32.905Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-19T19:59:32.911Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-19T19:59:32.912Z] > authorizing via signed-in user
+[debug] [2019-08-19T19:59:32.912Z] [iam] checking project portfolio-1920b for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-08-19T19:59:32.913Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-1920b:testIamPermissions  
+
+[debug] [2019-08-19T19:59:33.135Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-19T19:59:33.137Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-1920b  
+ 
+[debug] [2019-08-19T19:59:33.332Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'portfolio-1920b'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-08-19T19:59:33.336Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/portfolio-1920b/versions  
+
+[debug] [2019-08-19T19:59:33.520Z] <<< HTTP RESPONSE 500
+[debug] [2019-08-19T19:59:33.520Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-08-19T19:59:33.589Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Mon, 19 Aug 2019 19:59:33 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "firebasehosting.googleapis.com",
+        "port": 443,
+        "hostname": "firebasehosting.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1beta1/sites/portfolio-1920b/versions",
+        "path": "/v1beta1/sites/portfolio-1920b/versions",
+        "href": "https://firebasehosting.googleapis.com/v1beta1/sites/portfolio-1920b/versions"
+      },
+      "method": "POST"
+    }
+  }
+}
+[debug] [2019-08-19T20:00:31.929Z] ----------------------------------------------------------------------
+[debug] [2019-08-19T20:00:31.931Z] Command:       /Users/hanxu/.nvm/versions/node/v11.14.0/bin/node /Users/hanxu/.nvm/versions/node/v11.14.0/bin/firebase deploy
+[debug] [2019-08-19T20:00:31.931Z] CLI Version:   7.2.2
+[debug] [2019-08-19T20:00:31.932Z] Platform:      darwin
+[debug] [2019-08-19T20:00:31.932Z] Node Version:  v11.14.0
+[debug] [2019-08-19T20:00:31.932Z] Time:          Mon Aug 19 2019 16:00:31 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-08-19T20:00:31.932Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-19T20:00:31.939Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-19T20:00:31.939Z] > authorizing via signed-in user
+[debug] [2019-08-19T20:00:31.939Z] [iam] checking project portfolio-1920b for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-08-19T20:00:31.941Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-1920b:testIamPermissions  
+
+[debug] [2019-08-19T20:00:32.344Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-19T20:00:32.347Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-1920b  
+ 
+[debug] [2019-08-19T20:00:32.705Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'portfolio-1920b'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-08-19T20:00:32.709Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/portfolio-1920b/versions  
+
+[debug] [2019-08-19T20:00:33.062Z] <<< HTTP RESPONSE 500
+[debug] [2019-08-19T20:00:33.062Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-08-19T20:00:33.132Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Mon, 19 Aug 2019 20:00:33 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "firebasehosting.googleapis.com",
+        "port": 443,
+        "hostname": "firebasehosting.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1beta1/sites/portfolio-1920b/versions",
+        "path": "/v1beta1/sites/portfolio-1920b/versions",
+        "href": "https://firebasehosting.googleapis.com/v1beta1/sites/portfolio-1920b/versions"
+      },
+      "method": "POST"
+    }
+  }
+}
+[debug] [2019-08-19T20:02:18.666Z] ----------------------------------------------------------------------
+[debug] [2019-08-19T20:02:18.668Z] Command:       /Users/hanxu/.nvm/versions/node/v11.14.0/bin/node /Users/hanxu/.nvm/versions/node/v11.14.0/bin/firebase deploy
+[debug] [2019-08-19T20:02:18.668Z] CLI Version:   7.2.2
+[debug] [2019-08-19T20:02:18.668Z] Platform:      darwin
+[debug] [2019-08-19T20:02:18.668Z] Node Version:  v11.14.0
+[debug] [2019-08-19T20:02:18.669Z] Time:          Mon Aug 19 2019 16:02:18 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-08-19T20:02:18.669Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-19T20:02:18.675Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-19T20:02:18.675Z] > authorizing via signed-in user
+[debug] [2019-08-19T20:02:18.675Z] [iam] checking project portfolio-1920b for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-08-19T20:02:18.677Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-1920b:testIamPermissions  
+
+[debug] [2019-08-19T20:02:18.968Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-19T20:02:18.971Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-1920b  
+ 
+[debug] [2019-08-19T20:02:19.145Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'portfolio-1920b'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-08-19T20:02:19.150Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/portfolio-1920b/versions  
+
+[debug] [2019-08-19T20:02:19.367Z] <<< HTTP RESPONSE 500
+[debug] [2019-08-19T20:02:19.367Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-08-19T20:02:19.460Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Mon, 19 Aug 2019 20:02:19 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "firebasehosting.googleapis.com",
+        "port": 443,
+        "hostname": "firebasehosting.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1beta1/sites/portfolio-1920b/versions",
+        "path": "/v1beta1/sites/portfolio-1920b/versions",
+        "href": "https://firebasehosting.googleapis.com/v1beta1/sites/portfolio-1920b/versions"
+      },
+      "method": "POST"
+    }
+  }
+}

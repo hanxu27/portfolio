@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Tab, Jumbotron, Row, CardColumns, Tabs, Image, Col } from "react-bootstrap";
+import { Container, Tab, Jumbotron, Row, CardColumns, Tabs, Image } from "react-bootstrap";
 import { FaGithub, FaLinkedin, FaMediumM } from "react-icons/fa";
 import ProjectCard from "./projects/ProjectCard";
 import projects from "./projects/ProjectList";
@@ -70,20 +70,20 @@ class Home extends Component {
           </Row>
         </Jumbotron>
         <Tabs className="m-1" defaultActiveKey="projects">
-          <Tab eventKey="projects" title="Technical Projects">
-            <CardColumns className="m-3">
+          <Tab eventKey="projects" title="Technical Projects" className="m-3">
+            <CardColumns>
               {projects.map((project, idx) => (
                 <ProjectCard key={idx} project={project} handleShow={this.handleShow} />
               ))}
             </CardColumns>
           </Tab>
-          <Tab eventKey="employment" title="Employment History">
+          <Tab eventKey="employment" title="Employment History" className="m-3">
             <Employment />
           </Tab>
-          <Tab eventKey="education" title="Education">
+          <Tab eventKey="education" title="Education" className="m-3">
             <Education />
           </Tab>
-          <Tab eventKey="skills" title="Technical Skills">
+          <Tab eventKey="skills" title="Technical Skills" className="m-3">
             <Skills />
           </Tab>
         </Tabs>
