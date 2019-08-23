@@ -56,7 +56,6 @@ class Home extends Component {
             >
               <FaGithub size={34} className="m-1" style={{ color: this.iconColor }} />
             </a>
-
             <a
               href="https://www.linkedin.com/in/hanxu27/"
               target="_blank"

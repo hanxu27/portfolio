@@ -33,7 +33,7 @@ const hobbies = [
   {
     title: "Stocks",
     description:
-      "Although initially quite successful on my investsments getting 20% to 40% returns on my individual and Roth accounts, I manage to lose my gains when trying to break into trading. Now with some free time, I'm going to be disciplined and laser focused when entering and exiting my trades, constantly testing my hypothesis and adjusting my plan."
+      "Although initially quite successful on my investsments getting 20% to 30% returns on my individual and Roth accounts, I manage to lose my gains when trying to break into trading. Now with some free time, I'm going to be disciplined and laser focused when entering and exiting my trades, constantly testing my hypothesis and adjusting my plan."
   }
 ];
 
