@@ -7,7 +7,7 @@ const background = styled.div`
   background-position: center;
   overflow: hidden;
   z-index: -1;
-  min-height: 94.4vh;
+  min-height: 96.4vh;
 `;
 
 export default background;
