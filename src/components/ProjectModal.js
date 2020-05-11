@@ -20,7 +20,7 @@ const ProjectModal = props => {
           fluid
         />
       </a>
-      <Modal.Body>
+      <Modal.Body className="ml-2">
         {props.selectedProject.info.map(info => (
           <li>{info}</li>
         ))}
