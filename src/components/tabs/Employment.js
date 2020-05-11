@@ -58,7 +58,8 @@ const Employment = () => {
             <Card.Body>
               <Card.Title>
                 <b>{job.company}</b>
-                {job.location !== "" && `, ${job.location}`}
+                <br />
+                {job.location !== "" && ` ${job.location}`}
               </Card.Title>
               <Card.Text>
                 <h6>

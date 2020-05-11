@@ -2,7 +2,7 @@ const projects = [
   {
     name: "ParkBrowser",
     intro:
-      "Get information, latest updates, pictures, and log visits for your favorite national parks and monuments",
+      "Explore pictures, info, and latest update on all US national parks. Ability to log visits and jump start your own bucket list",
     info: [
       "Constructed frontend using react and redux with bootstrap for an intuitive and fluid user experience",
       "Built backend with ruby on rails, using National Park Services and Flickr APIs to parse and gather relevant information",
@@ -19,7 +19,8 @@ const projects = [
   },
   {
     name: "Volleyball Stats",
-    intro: "Graphical stats tracker for coaches to make in game adjustments and develope strategies",
+    intro:
+      "Graphical stats tracker for coaches and players to make in game adjustments and develope strategies",
     info: [
       "Used KonvaJS and JavaScript to allow users to record directional and positional data",
       "Automated player action types and outcomes through positional and directional information",
@@ -32,6 +33,19 @@ const projects = [
     embed: "https://www.youtube.com/embed/lQH4BPPdSug",
     image: "VolleyballStats.png",
     gif: "VolleyballStats.gif"
+  },
+  {
+    name: "Volleyball Score Keeper",
+    intro:
+      "Let the app worry about the score, rotations, subsistutions so coaches and players can focus on winning the game",
+    info: [
+      "Developed app with React and Bootstrap, modeling the layout after coaching clipboards",
+      "Built rotation, substitution, serving, and undo features to minimize manual user input "
+    ],
+    github: "https://github.com/hanxu27/vbRotations",
+    site: "https://vball-scorekeeper.firebaseapp.com/",
+    image: "vbRotate.jpg",
+    gif: "vbRotate.gif"
   },
   {
     name: "VB Tryouts",

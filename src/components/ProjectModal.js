@@ -41,9 +41,11 @@ const ProjectModal = props => {
               </a>
             </React.Fragment>
           )}
-          <a href={props.selectedProject.demo} target="_blank" rel="noopener noreferrer">
-            <FaYoutube size={28} className="m-1" />
-          </a>
+          {props.selectedProject.youtube && (
+            <a href={props.selectedProject.demo} target="_blank" rel="noopener noreferrer">
+              <FaYoutube size={28} className="m-1" />
+            </a>
+          )}
           <a href={props.selectedProject.site} target="_blank" rel="noopener noreferrer">
             <FaExternalLinkSquareAlt size={28} className="m-1" />
           </a>
