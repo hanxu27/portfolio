@@ -37,7 +37,7 @@ class Home extends Component {
                 alt="profile picture"
                 roundedCircle
                 fluid
-                style={{ width: "10%" }}
+                style={{ width: "10%", minWidth: "7rem" }}
               />
             </Row>
             <Row className="justify-content-center">
