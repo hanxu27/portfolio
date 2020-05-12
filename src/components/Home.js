@@ -10,11 +10,11 @@ import ProjectModal from "./ProjectModal";
 class Home extends Component {
   state = {
     showModal: false,
-    selectedProject: ""
+    selectedProject: "",
   };
   iconColor = "#a1a1a1";
   handleClose = () => this.setState({ showModal: false });
-  handleShow = async project => {
+  handleShow = async (project) => {
     await this.setState({ selectedProject: project });
     this.setState({ showModal: true });
   };
@@ -41,10 +41,12 @@ class Home extends Component {
               />
             </Row>
             <Row className="justify-content-center">
-              <Col xs={7}>
-                Full stack web developer with experience in Ruby / Javascript. Career background in
-                software support and customer applications engineering, skilled at addressing
-                customer needs, and experienced in working within both big and small teams.
+              <Col s={10} md={8}>
+                <h4>
+                  Full stack web developer with experience in Ruby / Javascript. Career background
+                  in software support and customer applications engineering, skilled at addressing
+                  customer needs, and experienced in working within both big and small teams.
+                </h4>
               </Col>
             </Row>
           </Container>
