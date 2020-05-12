@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Modal, Image } from "react-bootstrap";
 import { FaGithub, FaYoutube, FaExternalLinkSquareAlt, FaGithubSquare } from "react-icons/fa";
 
-const ProjectModal = props => {
+const ProjectModal = (props) => {
   return (
     <Modal show={props.showModal} onHide={props.handleClose} size="lg">
       <Modal.Header closeButton>
@@ -21,7 +21,7 @@ const ProjectModal = props => {
         />
       </a>
       <Modal.Body className="ml-2">
-        {props.selectedProject.info.map(info => (
+        {props.selectedProject.info.map((info) => (
           <li>{info}</li>
         ))}
       </Modal.Body>
@@ -41,7 +41,7 @@ const ProjectModal = props => {
               </a>
             </React.Fragment>
           )}
-          {props.selectedProject.youtube && (
+          {props.selectedProject.demo && (
             <a href={props.selectedProject.demo} target="_blank" rel="noopener noreferrer">
               <FaYoutube size={28} className="m-1" />
             </a>
